@@ -3,8 +3,7 @@ let number = parseInt(prompt("Digite un número: "))
 let multipleOfFive = number % 5
 let multipleOfThree = number % 3
 
-// console.log(multipleOfFive)
-// console.log(multipleOfThree)
+
 
 if (multipleOfThree === 0){
     console.log("Bing")
