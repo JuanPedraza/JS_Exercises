@@ -1,17 +1,15 @@
-let number = parseInt(prompt("Digite un número: "))
+// Escribe un programa que le pida un número al usuario e imprima en la consola si el número es mayor o menor/igual a 10.
 
-let multipleOfFive = number % 5
-let multipleOfThree = number % 3
+// Si es mayor debe imprimir "El número es mayor a 10".
+
+// Si es menor debe imprimir "El número es menor o igual a 10".
 
 
-if(multipleOfThree === 0 && multipleOfFive === 0){
-    console.log("BingBong")
+let number = parseInt(prompt("Escriba un número"))
+
+if (number < 10){
+    console.log("El número es menor 10");
 }else{
-    console.log(number)
+    console.log("El número es mayor a 10");
 }
 
-if (multipleOfThree === 0){
-    console.log("Bing")
-}else if(multipleOfFive === 0){
-    console.log("Bong")
-}
