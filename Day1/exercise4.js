@@ -1,4 +1,6 @@
-var year = 2021
+// Escribe un programa que le pida al usuario su año de nacimiento e imprima su edad actual en la consola con la frase "Tienes X años".
+
+let year = 2021
 
 let number = parseInt(prompt("Escribe el año de nacimiento:"))
 
